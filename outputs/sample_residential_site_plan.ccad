@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "title": "Sample Residential Site Plan",
+    "author": "Savan Mohebi / CivilCAD MVP",
+    "created_at": "2026-06-15T13:48:20",
+    "modified_at": "2026-06-15T13:48:20",
+    "schema_version": 1,
+    "unit_symbol": "m"
+  },
+  "active_layer": "0",
+  "layers": [
+    {
+      "name": "0",
+      "color": "#7dd3fc",
+      "visible": true,
+      "locked": false,
+      "line_width": 2.0
+    },
+    {
+      "name": "CENTER",
+      "color": "#facc15",
+      "visible": true,
+      "locked": false,
+      "line_width": 1.5
+    },
+    {
+      "name": "TEXT",
+      "color": "#e0f2fe",
+      "visible": true,
+      "locked": false,
+      "line_width": 1.3
+    },
+    {
+      "name": "LOT",
+      "color": "#38bdf8",
+      "visible": true,
+      "locked": false,
+      "line_width": 2.5
+    },
+    {
+      "name": "BUILDING",
+      "color": "#f8fafc",
+      "visible": true,
+      "locked": false,
+      "line_width": 2.2
+    },
+    {
+      "name": "INTERIOR",
+      "color": "#a7f3d0",
+      "visible": true,
+      "locked": false,
+      "line_width": 1.4
+    },
+    {
+      "name": "DRIVE",
+      "color": "#94a3b8",
+      "visible": true,
+      "locked": false,
+      "line_width": 1.7
+    },
+    {
+      "name": "LANDSCAPE",
+      "color": "#22c55e",
+      "visible": true,
+      "locked": false,
+      "line_width": 1.5
+    },
+    {
+      "name": "DIM",
+      "color": "#facc15",
+      "visible": true,
+      "locked": false,
+      "line_width": 1.2
+    }
+  ],
+  "entities": [
+    {
+      "type": "rectangle",
+      "id": "d7edc32c022940f4bb7b92a76061be06",
+      "layer": "LOT",
+      "color": "#38bdf8",
+      "line_width": 2.5,
+      "corner1": {
+        "x": 0,
+        "y": 0
+      },
+      "corner2": {
+        "x": 24,
+        "y": 16
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "3786cbad85f2432988357dc97d44c796",
+      "layer": "DIM",
+      "color": "#facc15",
+      "line_width": 1.0,
+      "corner1": {
+        "x": 2,
+        "y": 2
+      },
+      "corner2": {
+        "x": 22,
+        "y": 14
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "035484ee3831403e988bae4da9876522",
+      "layer": "BUILDING",
+      "color": "#f8fafc",
+      "line_width": 2.5,
+      "corner1": {
+        "x": 5,
+        "y": 4
+      },
+      "corner2": {
+        "x": 17,
+        "y": 12
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "acb5f9e368ce41968475e3b19ca7dd81",
+      "layer": "BUILDING",
+      "color": "#fbbf24",
+      "line_width": 2.0,
+      "corner1": {
+        "x": 8,
+        "y": 3
+      },
+      "corner2": {
+        "x": 14,
+        "y": 4
+      }
+    },
+    {
+      "type": "line",
+      "id": "292bd4e54b1e44bd881dd276b01aa089",
+      "layer": "INTERIOR",
+      "color": "#a7f3d0",
+      "line_width": 1.4,
+      "start": {
+        "x": 11,
+        "y": 4
+      },
+      "end": {
+        "x": 11,
+        "y": 12
+      }
+    },
+    {
+      "type": "line",
+      "id": "0a8bdc51960a4d329a75675b5d5c4c14",
+      "layer": "INTERIOR",
+      "color": "#a7f3d0",
+      "line_width": 1.4,
+      "start": {
+        "x": 5,
+        "y": 8
+      },
+      "end": {
+        "x": 17,
+        "y": 8
+      }
+    },
+    {
+      "type": "line",
+      "id": "d9af217abe4746bea3d57ef720f6d603",
+      "layer": "INTERIOR",
+      "color": "#a7f3d0",
+      "line_width": 1.4,
+      "start": {
+        "x": 14,
+        "y": 8
+      },
+      "end": {
+        "x": 14,
+        "y": 12
+      }
+    },
+    {
+      "type": "line",
+      "id": "f7a163b783944f0fa447aa72641c0f6e",
+      "layer": "BUILDING",
+      "color": "#f8fafc",
+      "line_width": 1.4,
+      "start": {
+        "x": 10.0,
+        "y": 4.0
+      },
+      "end": {
+        "x": 10.0,
+        "y": 3.35
+      }
+    },
+    {
+      "type": "line",
+      "id": "d30ecc94a9e34a1cb5c20eb66643fee9",
+      "layer": "BUILDING",
+      "color": "#f8fafc",
+      "line_width": 1.2,
+      "start": {
+        "x": 10.0,
+        "y": 3.35
+      },
+      "end": {
+        "x": 10.9,
+        "y": 4.0
+      }
+    },
+    {
+      "type": "line",
+      "id": "ff01353de9e04f34966546d6c0a0f514",
+      "layer": "BUILDING",
+      "color": "#f8fafc",
+      "line_width": 1.2,
+      "start": {
+        "x": 11.0,
+        "y": 7.15
+      },
+      "end": {
+        "x": 11.9,
+        "y": 8.0
+      }
+    },
+    {
+      "type": "line",
+      "id": "28026bfe7ab2422883696dc415dc17d2",
+      "layer": "BUILDING",
+      "color": "#f8fafc",
+      "line_width": 1.2,
+      "start": {
+        "x": 13.1,
+        "y": 8.0
+      },
+      "end": {
+        "x": 14.0,
+        "y": 8.85
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "b1139fe4679447629f8ec54a599c65d9",
+      "layer": "DRIVE",
+      "color": "#64748b",
+      "line_width": 1.7,
+      "corner1": {
+        "x": 1,
+        "y": 1
+      },
+      "corner2": {
+        "x": 7,
+        "y": 4
+      }
+    },
+    {
+      "type": "line",
+      "id": "6330bd6069c344d7827790f1c803e39f",
+      "layer": "DRIVE",
+      "color": "#cbd5e1",
+      "line_width": 1.5,
+      "start": {
+        "x": 7,
+        "y": 2.6
+      },
+      "end": {
+        "x": 8,
+        "y": 3.5
+      }
+    },
+    {
+      "type": "line",
+      "id": "922f6f48f11e4d388dd9f4b6a0c98d4f",
+      "layer": "DRIVE",
+      "color": "#cbd5e1",
+      "line_width": 1.5,
+      "start": {
+        "x": 7,
+        "y": 2.0
+      },
+      "end": {
+        "x": 8,
+        "y": 3.0
+      }
+    },
+    {
+      "type": "circle",
+      "id": "bbf43b8f5e9c4e40a3b7e193d889a54e",
+      "layer": "LANDSCAPE",
+      "color": "#22c55e",
+      "line_width": 1.5,
+      "center": {
+        "x": 3,
+        "y": 13
+      },
+      "radius": 0.8
+    },
+    {
+      "type": "line",
+      "id": "d79fba90199e4cde956f12d41dd0d9d3",
+      "layer": "LANDSCAPE",
+      "color": "#16a34a",
+      "line_width": 1.0,
+      "start": {
+        "x": 2.44,
+        "y": 13
+      },
+      "end": {
+        "x": 3.56,
+        "y": 13
+      }
+    },
+    {
+      "type": "line",
+      "id": "24d15c836e174683a518e600e0aa3675",
+      "layer": "LANDSCAPE",
+      "color": "#16a34a",
+      "line_width": 1.0,
+      "start": {
+        "x": 3,
+        "y": 12.44
+      },
+      "end": {
+        "x": 3,
+        "y": 13.56
+      }
+    },
+    {
+      "type": "circle",
+      "id": "011806f625c543e89d07891c70729b47",
+      "layer": "LANDSCAPE",
+      "color": "#22c55e",
+      "line_width": 1.5,
+      "center": {
+        "x": 20,
+        "y": 12.5
+      },
+      "radius": 0.9
+    },
+    {
+      "type": "line",
+      "id": "cb1e91ecf17046d9b2dfd9011ab5b45f",
+      "layer": "LANDSCAPE",
+      "color": "#16a34a",
+      "line_width": 1.0,
+      "start": {
+        "x": 19.37,
+        "y": 12.5
+      },
+      "end": {
+        "x": 20.63,
+        "y": 12.5
+      }
+    },
+    {
+      "type": "line",
+      "id": "f778bb45fde74dae9e7d87f4e8abe54e",
+      "layer": "LANDSCAPE",
+      "color": "#16a34a",
+      "line_width": 1.0,
+      "start": {
+        "x": 20,
+        "y": 11.87
+      },
+      "end": {
+        "x": 20,
+        "y": 13.13
+      }
+    },
+    {
+      "type": "circle",
+      "id": "b18cf9e936c044eba35ad129bcce477f",
+      "layer": "LANDSCAPE",
+      "color": "#22c55e",
+      "line_width": 1.5,
+      "center": {
+        "x": 21,
+        "y": 3.2
+      },
+      "radius": 0.7
+    },
+    {
+      "type": "line",
+      "id": "7465c27312124165b8c12c744dd9c620",
+      "layer": "LANDSCAPE",
+      "color": "#16a34a",
+      "line_width": 1.0,
+      "start": {
+        "x": 20.51,
+        "y": 3.2
+      },
+      "end": {
+        "x": 21.49,
+        "y": 3.2
+      }
+    },
+    {
+      "type": "line",
+      "id": "d01724d078014e6d9190414087cdd84c",
+      "layer": "LANDSCAPE",
+      "color": "#16a34a",
+      "line_width": 1.0,
+      "start": {
+        "x": 21,
+        "y": 2.7100000000000004
+      },
+      "end": {
+        "x": 21,
+        "y": 3.69
+      }
+    },
+    {
+      "type": "circle",
+      "id": "48ea13e630a649d19e6be134df3d4c0f",
+      "layer": "LANDSCAPE",
+      "color": "#22c55e",
+      "line_width": 1.5,
+      "center": {
+        "x": 3,
+        "y": 6
+      },
+      "radius": 0.6
+    },
+    {
+      "type": "line",
+      "id": "629f5af3382649a3b4ad2b0b8777c6bf",
+      "layer": "LANDSCAPE",
+      "color": "#16a34a",
+      "line_width": 1.0,
+      "start": {
+        "x": 2.58,
+        "y": 6
+      },
+      "end": {
+        "x": 3.42,
+        "y": 6
+      }
+    },
+    {
+      "type": "line",
+      "id": "fac18b572a744d98bb9239fcc97f8e72",
+      "layer": "LANDSCAPE",
+      "color": "#16a34a",
+      "line_width": 1.0,
+      "start": {
+        "x": 3,
+        "y": 5.58
+      },
+      "end": {
+        "x": 3,
+        "y": 6.42
+      }
+    },
+    {
+      "type": "line",
+      "id": "39bfbd62c36046e7b62e108c62a2e33f",
+      "layer": "DIM",
+      "color": "#facc15",
+      "line_width": 1.2,
+      "start": {
+        "x": 0,
+        "y": -1
+      },
+      "end": {
+        "x": 24,
+        "y": -1
+      }
+    },
+    {
+      "type": "line",
+      "id": "e07dde8f8159442eb1fc22cd0aea4f65",
+      "layer": "DIM",
+      "color": "#facc15",
+      "line_width": 1.2,
+      "start": {
+        "x": -1,
+        "y": 0
+      },
+      "end": {
+        "x": -1,
+        "y": 16
+      }
+    },
+    {
+      "type": "line",
+      "id": "817848c9fdac49559c98c3b97050b778",
+      "layer": "DIM",
+      "color": "#facc15",
+      "line_width": 1.0,
+      "start": {
+        "x": 0,
+        "y": -0.6
+      },
+      "end": {
+        "x": 0,
+        "y": -1.4
+      }
+    },
+    {
+      "type": "line",
+      "id": "464b63390f2f44058992c63557f5a596",
+      "layer": "DIM",
+      "color": "#facc15",
+      "line_width": 1.0,
+      "start": {
+        "x": 24,
+        "y": -0.6
+      },
+      "end": {
+        "x": 24,
+        "y": -1.4
+      }
+    },
+    {
+      "type": "line",
+      "id": "257d5bc528a04ef8972e89bf539d5544",
+      "layer": "DIM",
+      "color": "#facc15",
+      "line_width": 1.0,
+      "start": {
+        "x": -0.6,
+        "y": 0
+      },
+      "end": {
+        "x": -1.4,
+        "y": 0
+      }
+    },
+    {
+      "type": "line",
+      "id": "0dbda5065e0b4fe9b38fff5a070efedc",
+      "layer": "DIM",
+      "color": "#facc15",
+      "line_width": 1.0,
+      "start": {
+        "x": -0.6,
+        "y": 16
+      },
+      "end": {
+        "x": -1.4,
+        "y": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "bccb4b74691b4e9c98021c0f62e8b8db",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 7.1,
+        "y": 10.0
+      },
+      "text": "Living",
+      "height": 0.38
+    },
+    {
+      "type": "text",
+      "id": "da9c43944d99407ba515d07efd11996a",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 12.0,
+        "y": 10.2
+      },
+      "text": "Bedroom",
+      "height": 0.36
+    },
+    {
+      "type": "text",
+      "id": "d95786e5c74d49309a73069fd5273f25",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 14.5,
+        "y": 10.2
+      },
+      "text": "Bath",
+      "height": 0.32
+    },
+    {
+      "type": "text",
+      "id": "2db0be5ddab744e3989321caadf33f9a",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 7.1,
+        "y": 6.2
+      },
+      "text": "Kitchen",
+      "height": 0.36
+    },
+    {
+      "type": "text",
+      "id": "47017c60e4b143ea889fec66dd5c6f40",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 12.0,
+        "y": 6.2
+      },
+      "text": "Dining",
+      "height": 0.36
+    },
+    {
+      "type": "text",
+      "id": "636b567389e143cc9658f5403d06bbe6",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 9.0,
+        "y": 3.25
+      },
+      "text": "Porch",
+      "height": 0.28
+    },
+    {
+      "type": "text",
+      "id": "299796f3dcc94949acadb8adb277b58f",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 1.7,
+        "y": 2.3
+      },
+      "text": "Driveway",
+      "height": 0.32
+    },
+    {
+      "type": "text",
+      "id": "dc6b355b39484f8289270505fb031798",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 7.0,
+        "y": 15.0
+      },
+      "text": "24 m x 16 m Lot",
+      "height": 0.42
+    },
+    {
+      "type": "text",
+      "id": "af5e9c9aa56e4f8d8a30c5e2eb01e31d",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 10.2,
+        "y": -1.75
+      },
+      "text": "24.00 m",
+      "height": 0.34
+    },
+    {
+      "type": "text",
+      "id": "02a33bd0dcdf43fdb338229591b541d4",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": -2.5,
+        "y": 7.6
+      },
+      "text": "16.00 m",
+      "height": 0.34
+    },
+    {
+      "type": "text",
+      "id": "a87b6e2f92bc4cfc925f2f4bf6f0fded",
+      "layer": "TEXT",
+      "color": "#e0f2fe",
+      "line_width": 1.0,
+      "position": {
+        "x": 17.6,
+        "y": 7.8
+      },
+      "text": "Garden",
+      "height": 0.34
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Sample Residential Site Plan
+Author: Savan Mohebi / CivilCAD MVP
+Units: Meters (m)
+Entities: 43
+
+Entity counts:
+  circle: 4
+  line: 23
+  rectangle: 5
+  text: 11
+
+Total line length: 82.596 m
