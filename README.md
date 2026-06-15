@@ -22,19 +22,45 @@ or:
 python3 civil_cad_mvp.py
 ```
 
-## Project Structure
+## 📂 Project Structure (Modular Architecture)
 
+The project has transitioned to a modular structure to ensure scalability, enabling easier integration of AI-driven engineering tools and complex geometric computations.
 ```text
 civil_cad_mvp/
-├── civil_cad_mvp.py      # Application entry point
-├── app_pyside.py         # PySide6 GUI and interaction controller
-├── app_tk.py             # Legacy tkinter GUI kept as a fallback/reference
-├── canvas_renderer.py    # Legacy tkinter canvas renderer
-├── cad_core.py           # CAD document model, geometry, quantities, templates, exports
-├── requirements.txt      # Runtime dependencies
-├── tests/                # Core CAD regression tests
-└── README.md
-```
+├── civil_cad_mvp.py      # Entry point (Bootstrap script)
+├── app_pyside.py         # Main GUI Controller (PySide6 Logic)
+├── cad_core.py           # Legacy Core Interface / Bridge
+├── canvas_renderer.py    # Rendering engine for drawing operations
+├── requirements.txt      # Dependency manifest
+├── README.md             # Project documentation
+│
+├── core/                 # 🧠 Geometric & Engineering Logic
+│   ├── geometry.py       # Vector math, intersections, and spatial logic
+│   ├── document.py       # CAD state management & Undo/Redo stacks
+│   └── quantities.py     # Civil engineering estimation & takeoff engines
+│
+├── ui/                   # 🎨 User Interface Components
+│   ├── main_window.ui    # Qt Designer layouts
+│   ├── widgets/          # Custom property editors & layer managers
+│   └── dialogs/          # Template pickers & export settings
+│
+├── theme/                # 🌓 Visual Styles & Branding
+│   ├── styles.qss        # Qt Style Sheets (Engineering Night, Blueprint, etc.)
+│   └── icons/            # SVG/PNG assets for drafting tools
+│
+├── units/                # 📏 Coordinate & Unit Systems
+│   ├── conversion.py     # Metric/Imperial & Civil scale management
+│   └── projections.py    # Local coordinate system mappings
+│
+├── outputs/              # 📤 Generated Reports & Exports
+│   ├── dxf_export/       # DXF schema handlers
+│   └── reports/          # PDF/CSV Quantity takeoff templates
+│
+├── tests/                # 🧪 Quality Assurance & Regression
+│   ├── test_core.py      # Unit tests for geometry engines
+│   └── test_ui.py        # Integration tests for GUI workflows
+│
+└── .vscode/              # ⚙️ Development Environment settings
 
 ## Main Features
 
