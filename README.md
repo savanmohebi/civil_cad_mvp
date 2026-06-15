@@ -21,46 +21,46 @@ or:
 ```bash
 python3 civil_cad_mvp.py
 ```
-
 ## 📂 Project Structure (Modular Architecture)
 
 The project has transitioned to a modular structure to ensure scalability, enabling easier integration of AI-driven engineering tools and complex geometric computations.
 ```text
 civil_cad_mvp/
-├── civil_cad_mvp.py      # Entry point (Bootstrap script)
-├── app_pyside.py         # Main GUI Controller (PySide6 Logic)
-├── cad_core.py           # Legacy Core Interface / Bridge
-├── canvas_renderer.py    # Rendering engine for drawing operations
+├── civil_cad_mvp.py      # Main entry point and application bootstrap
+├── app_pyside.py         # Primary GUI Controller (PySide6 logic)
+├── cad_core.py           # Legacy Core / CAD Logic Bridge
+├── canvas_renderer.py    # Rendering engine for high-precision drawing
 ├── requirements.txt      # Dependency manifest
 ├── README.md             # Project documentation
 │
-├── core/                 # 🧠 Geometric & Engineering Logic
+├── core/                 # 🧠 Engineering & Geometric Logic
 │   ├── geometry.py       # Vector math, intersections, and spatial logic
-│   ├── document.py       # CAD state management & Undo/Redo stacks
+│   ├── document.py       # State management, layers, and Undo/Redo stacks
 │   └── quantities.py     # Civil engineering estimation & takeoff engines
 │
 ├── ui/                   # 🎨 User Interface Components
-│   ├── main_window.ui    # Qt Designer layouts
+│   ├── main_window.ui    # Qt Designer layouts and XML definitions
 │   ├── widgets/          # Custom property editors & layer managers
 │   └── dialogs/          # Template pickers & export settings
 │
 ├── theme/                # 🌓 Visual Styles & Branding
 │   ├── styles.qss        # Qt Style Sheets (Engineering Night, Blueprint, etc.)
-│   └── icons/            # SVG/PNG assets for drafting tools
+│   └── icons/            # SVG/PNG assets for specialized drafting tools
 │
 ├── units/                # 📏 Coordinate & Unit Systems
-│   ├── conversion.py     # Metric/Imperial & Civil scale management
-│   └── projections.py    # Local coordinate system mappings
+│   ├── conversion.py     # Metric/Imperial & engineering scale management
+│   └── projections.py    # Local coordinate system & surveying mappings
 │
 ├── outputs/              # 📤 Generated Reports & Exports
-│   ├── dxf_export/       # DXF schema handlers
-│   └── reports/          # PDF/CSV Quantity takeoff templates
+│   ├── dxf_export/       # DXF schema and CAD exchange handlers
+│   └── reports/          # Automated PDF/CSV Quantity takeoff templates
 │
-├── tests/                # 🧪 Quality Assurance & Regression
-│   ├── test_core.py      # Unit tests for geometry engines
-│   └── test_ui.py        # Integration tests for GUI workflows
+├── tests/                # 🧪 Quality Assurance & Precision Testing
+│   ├── test_core.py      # Unit tests for geometric kernels
+│   └── test_ui.py        # Integration tests for UI/UX workflows
 │
-└── .vscode/              # ⚙️ Development Environment settings
+└── .vscode/              # ⚙️ IDE Configuration & development environment settings
+
 
 ## Main Features
 
